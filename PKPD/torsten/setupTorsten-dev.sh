@@ -1,5 +1,5 @@
 # setupTorsten-dev
-# v 1.2
+# v 1.2 - bug fix: issue-1-ode-tuning
 # Run this bash file in the directory where you want to install cmdstan
 # with the Torsten functions. 
 #
@@ -23,4 +23,4 @@ cd lib
 git clone https://github.com/charlesm93/math.git
 mv math stan_math_2.14.0
 cd stan_math_2.14.0
-git checkout torsten-develop
+git checkout issue-26-ode-tuning

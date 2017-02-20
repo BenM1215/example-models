@@ -39,8 +39,8 @@ parametersToPlot <- c("lp__", parametersToPlot)
 ################################################################################################
 ## run Stan
 nChains <- 4
-nPost <- 500 ## Number of post-burn-in samples per chain after thinning
-nBurn <- 500 ## Number of burn-in samples per chain after thinning
+nPost <- 1 ## Number of post-burn-in samples per chain after thinning
+nBurn <- 0 ## Number of burn-in samples per chain after thinning
 nThin <- 1
 
 nIter <- nPost* nThin
